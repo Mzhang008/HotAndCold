@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styles.css" >
+</head>
+<body>
+    <form name="formMain">
+        <fieldset id="hotAndCold">
+            <legend>Starting Temperature (Hot & Cold)</legend>
+            <label for="baseTempC2">-2
+                <input type="radio" id="baseTempC2" name="baseTemp" value="-2" checked>
+                <img src="./img/baseTempCold2.png">
+            </label>          
+            <label for="baseTempC1">-1
+                <input type="radio" id="baseTempC1" name="baseTemp" value="-1">
+                <img src="./img/baseTempCold1.png">
+            </label>   
+            <label for="baseTempH1">+1
+                <input type="radio" id="baseTempH1" name="baseTemp" value="1">
+                <img src="./img/baseTempHot1.png">
+            </label>   
+            <label for="baseTempH2">+2
+                <input type="radio" id="baseTempH2" name="baseTemp" value="2">
+                <img src="./img/baseTempHot2.png">
+            </label>   
+        </fieldset>  
+        <fieldset id="hotColdBrand">
+            <legend>Hot/Cold Brand</legend>
+            <label for="brandC2">-2
+                <input type="radio" id="brandC2" name="brand" value="-2" checked>
+                <img src="./img/ColdBrand2.png">
+            </label>          
+            <label for="brandC1">-1
+                <input type="radio" id="brandC1" name="brand" value="-1">
+                <img src="./img/ColdBrand1.png">
+            </label>      
+            <label for="brandH1">+1
+                <input type="radio" id="brandH1" name="brand" value="1">
+                <img src="./img/HotBrand1.png">
+            </label>      
+            <label for="brandH2">+2
+                <input type="radio" id="brandH2" name="brand" value="2">
+                <img src="./img/HotBrand2.png">
+            </label>      
+        </fieldset>
+        
+    </form>
+
+    <div>
+        <p id="result">Result: </p>
+        <br>
+        <br>
+        <p>Note: This app will give you the steps you should take based
+            on the temperature and brand you recieve at the START of the phase 
+            (before any slashes or arrows appear).
+        </p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

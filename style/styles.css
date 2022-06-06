@@ -1,0 +1,13 @@
+label > input:checked {
+    box-shadow: 0 0 0 3px greenyellow;
+}
+
+label {
+    display: inline-block;
+}
+img {
+    max-height: 110px;
+    max-width: 90px;
+    width: auto;
+    height: auto;
+}
